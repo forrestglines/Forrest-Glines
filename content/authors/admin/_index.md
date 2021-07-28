@@ -1,9 +1,7 @@
 ---
 role: PhD Student in Computational Astrophysics
 avatar_filename: portrait.png
-bio: "My research interests include galaxy cluster simulations,
-  magnetohydrodynamic turbulence, numerical fluid methods, and performance
-  portable code "
+bio: "Developing performance-portable astrophysics simulations for exascale computers to better understand feedback from active galactic nuclei."
 interests: []
 social:
   - icon: envelope
@@ -40,8 +38,8 @@ highlight_name: false
 title: Forrest Glines
 email: ""
 ---
-I am currently a graduate student at Michigan State University and an intern with Sandia National Labs.
+I am a graduate student at Michigan State University and a graduate student researcher at Sandia National Labs.
 
-My research covers simulations of galaxy clusters with self-regulating AGN feedback, simulations of magnetohydrodynamic turbulence, improving Newtonian and relativistic methods for evolving plasmas, and developing performance portable astrophysics codes.
+My research covers simulations of galaxy clusters with self-regulating AGN feedback, simulations of magnetohydrodynamic turbulence, numerical methods for Newtonian and relativistic plasmas, and performance-portable astrophysics codes.
 
-#{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

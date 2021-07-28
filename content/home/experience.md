@@ -7,14 +7,14 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 100
 
 title: Experience
 subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+date_format: Jun 2021
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -22,28 +22,29 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: PhD Candidate
+    company: Michigan State University
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: org-msu
+    location: Michigan
+    date_start: '2016-08-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Research projects include
+        * AGN Feedback Models
+        * Magnetic Fields in Galaxy Clusters
+        * Magnetohydrodynamic Turbulence
+        * Performance Portable Astrophysics Codes
+        TA for Intro to Astronomy and Parallel Computing
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Graduate Student Researcher
+    company: Sandia National Laboratories
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: org-snl
+    location: New Mexico
+    date_start: '2018-12-01'
+    date_end: ''
+    description: Developed robust schemes for relativistic hydrodynamics
 
 design:
   columns: '2'
