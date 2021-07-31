@@ -5,21 +5,21 @@ url_pdf: ""
 publication_types:
   - "2"
 authors:
-  - Philipp Grete
   - admin
+  - Philipp Grete
   - Brian W. O'Shea
 summary: ""
 url_dataset: ""
 url_project: ""
-publication_short: In *TPDS*
+publication_short: In *PhysRevE*
 url_source: ""
 url_video: ""
-publication: In *Transactions on Parallel and Distributed Systems*
+publication: In *Physical Reviews E*
 featured: true
 date: 2021-04-13T00:00:00Z
 url_slides: ""
-title: " K-Athena: a performance portable structured grid finite volume
-  magnetohydrodynamics code "
+title: "Magnetized decaying turbulence in the weakly compressible Taylor-Green
+  vortex "
 tags: []
 projects: []
 image:
@@ -29,15 +29,21 @@ image:
 publishDate: 2020-01-01T00:00:00Z
 url_poster: ""
 url_code: ""
-doi: 10.1109/TPDS.2020.3010016
+doi: "10.1103/PhysRevE.103.043203 "
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Magnetohydrodynamic (MHD) turbulence affects both terrestrial and astrophysical
+plasmas. The properties of magnetized turbulence must be better understood to
+more accurately characterize these systems. This work presents ideal MHD
+simulations of the compressible Taylor-Green vortex under a range of initial
+subsonic Mach numbers and magnetic field strengths. We find that regardless of
+the initial field strength, the magnetic energy becomes dominant over the
+kinetic energy on all scales after at most several dynamical times. The
+spectral indices of the kinetic and magnetic energy spectra become shallower
+than $k^{−5/3}$ over time and generally fluctuate. Using a shell-to-shell energy
+transfer analysis framework, we find that the magnetic fields facilitate a
+significant amount of the energy flux and that the kinetic energy cascade is
+suppressed. Moreover, we observe nonlocal energy transfer from the large-scale
+kinetic energy to intermediate and small-scale magnetic energy via magnetic
+tension. We conclude that even in intermittently or singularly driven weakly
+magnetized systems, the dynamical effects of magnetic fields cannot be
+neglected.

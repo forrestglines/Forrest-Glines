@@ -24,11 +24,14 @@ social:
 organizations:
   - name: Department of Physics and Astronomy, Michigan State University
     url: https://pa.msu.edu/
-  - name: Department of Computational Science, Mathematics and Engineering, Michigan
+  - name: Department of Computational Mathematics, Science  and Engineering, Michigan
       State University
     url: https://cmse.msu.edu/
 education:
   courses:
+    - course: PhD Candidate in Astrophysics and Computational Mathematics, Science and Engineering
+      institution: Michigan State University
+      year: 2016-present
     - course: BSc in Physics and Mathematics with Emphasis in Applied and
         Computational Mathematics
       institution: Brigham Young University
@@ -38,8 +41,16 @@ highlight_name: false
 title: Forrest Glines
 email: ""
 ---
-I am a graduate student at Michigan State University and a graduate student researcher at Sandia National Labs.
+I am a graduate student in Astrophysics and Computational Mathematics, Science
+and Engineering at Michigan State University and a graduate student researcher
+at Sandia National Laboratories.
 
-My research covers simulations of galaxy clusters with self-regulating AGN feedback, simulations of magnetohydrodynamic turbulence, numerical methods for Newtonian and relativistic plasmas, and performance-portable astrophysics codes.
+My research covers simulations of galaxy clusters with self-regulating AGN
+feedback, simulations of magnetohydrodynamic turbulence, numerical methods for
+magnetized Newtonian and relativistic plasmas, and performance-portable
+astrophysics codes.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am looking for post doctoral oppotrunities in astrophysics and computational
+science for 2022. Feel free to contact me via [email](mailto:glinesfo@msu.edu).
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Forrest_Glines_CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.

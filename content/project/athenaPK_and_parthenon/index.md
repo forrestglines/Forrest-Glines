@@ -10,9 +10,9 @@ date: "2021-06-15T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 #external_link: "https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk"
 
-#image:
-#  caption: Mach number and magnetic pressure from magnetized Taylor-Green simulation
-#  focal_point: Smart
+image:
+  caption: Blast wave with AMR in AthenaPK (CC-BY Philipp Grete)
+  focal_point: Smart
 
 #links:
 #- icon: twitter
@@ -33,16 +33,16 @@ date: "2021-06-15T00:00:00Z"
 ---
 
 AthenaPK is an in-development performance-portable conversion of Athena++ build
-on the Parthenon adapative mesh refinement (AMR) framework using the Kokkos
+on the Parthenon adaptive mesh refinement (AMR) framework using the Kokkos
 performance portability library. I am one of the main developers for AthenaPK
 and a co-developer for Parthenon. The Parthenon framework is designed to be
 massively scalable and efficient on both CPUs and GPUs, enabling
 next-generation AMR simulations on a variety of hardware architectures. Kernels
 and data are managed by Kokkos, which enables high performance on any
-architecture supported by Kokkos, including CPUs, NVidia and AMD GPUs, and
+architecture supported by Kokkos, including CPUs, NVIDIA and AMD GPUs, and
 future Intel GPUs. AthenaPK uses the robust solvers from Athena++ within the
 Parthenon framework to enable future exascale astrophysical simulations.
 
-[Partheon Repository](https://github.com/lanl/parthenon)
+Parthenon is publicly available on [github](https://github.com/lanl/parthenon).
 
-[AthenaPK Repository](https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk)
+AthenaPK is publicly available on [gitlab](https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk).

@@ -38,23 +38,20 @@ grids efficiently when running on GPUs. However, the code was a valuable proof
 of concept for a performance-portable magnetohydrodynamics code, allowing
 future exascale simulations to be unconstrained by niche architectures.
 
-[K-Athena Repository](https://gitlab.com/pgrete/kathena)
+K-Athena is publicly available on [gitlab](https://gitlab.com/pgrete/kathena).
 
-[K-Athena code paper on Arxiv](https://arxiv.org/abs/1905.04341)
-
-
-A significant portion of the code paper is devoted to quantifying the
-performance portability of code. To this end, we constructed roofline models on
-each of the CPU and GPU devices on which we tested K-Athena. Roofline models
-allow estimations of the theoretical peak throughput of a code as limited by
-its arithmetic intensity (the number of operations execute per byte loaded) and
-by the bandwidths and computational throughputs of the hardware. By comparing
-the actual efficiency achieved to the theoretical efficiency for each
-architecture, we  obtain a performance efficiency for each machine that can be
-directly compared, even if the architectures are very different.
+As part of the development effort, we quantified the performance portability of
+code using roofline models. We constructed roofline models on each
+of the CPU and GPU devices on which we tested K-Athena. Roofline models allow
+estimations of the theoretical peak throughput of a code as limited by its
+arithmetic intensity (the number of operations execute per byte loaded) and by
+the bandwidths and computational throughputs of the hardware. By comparing the
+actual efficiency achieved to the theoretical efficiency for each architecture,
+we  obtain a performance efficiency for each machine that can be directly
+compared, even if the architectures are very different.
 
 ![](gpu-roofline.png)
-Roofline model of an NVidia Tesla V100 with the arithmetic intensity of
+Roofline model of an NVIDIA Tesla V100 with the arithmetic intensity of
 K-Athena, showing performance in TFLOPS versus arithmetic intensity in floating
 point operations execute per byte loaded and written. Throughputs appear as
 horizontal ceilings, bandwidths of the different memory spaces of the hardware
@@ -73,3 +70,8 @@ implementation of K-Athena (and similar MHD codes) is typically limited by the
 DRAM bandwidth, leading to a performance portability of 62.8%. Less efficiency
 utilization of the L1 cache on almost all architectures leads to a 7.7%
 performance portability with respect to the L1 cache.
+
+Our full method description and performance analysis can be found in
+[IEEE Transactions on Parallel and Distributed Systems](https://doi.org/10.1109/TPDS.2020.3010016).
+
+

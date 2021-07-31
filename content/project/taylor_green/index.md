@@ -31,8 +31,17 @@ image:
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+To investigate the development of turbulence in intermittently driven plasmas
+such as the intracluster medium, we used our newly developed K-Athena code to
+run a series of simulations of the magnetized Taylor-Green vortex. The
+turbulence that arises from the unsteady flow of the magnetized Taylor-Green
+vortex models the turbulence that develops from large scale infrequent events
+such as galaxy cluster mergers disturbing the intracluster medium. In our
+paper, we examine the magnitude and the spectra of the kinetic, magnetic, and
+thermal energy reservoirs within the plasma. Additionally, we apply an energy
+transfer analysis to study the movement of energy between different length
+scale and between different reservoirs 
 
-Taking advantage of the efficiency that K-Athena allowed, we ran a series of
-simulations of the magnetized Taylor-Green vortex to study the behavior of
-magnetized turbulence that decays from a large scale flow without a driving
-force.  Using an energy transfer analysis, we found [look at my abstract]
+
+Our full setup, explanation, and analysis can be found in 
+[Physical Review E](https://doi.org/10.1103/PhysRevE.103.043203).

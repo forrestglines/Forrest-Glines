@@ -14,7 +14,7 @@ subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jun 2021
+date_format: 'Jan 2006'
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -25,26 +25,69 @@ experience:
   - title: PhD Candidate
     company: Michigan State University
     company_url: ''
-    company_logo: org-msu
+    #company_logo: org-msu
     location: Michigan
     date_start: '2016-08-01'
     date_end: ''
     description: |2-
-        Research projects include
-        * AGN Feedback Models
+        Research:
+
+        * Active Galactic Nuclei Feedback Models
         * Magnetic Fields in Galaxy Clusters
         * Magnetohydrodynamic Turbulence
         * Performance Portable Astrophysics Codes
-        TA for Intro to Astronomy and Parallel Computing
+
+        Teaching:
+
+        * Teaching Assistant for Introduction to Astronomy
+        * Teaching Assistant for Parallel Computing
         
   - title: Graduate Student Researcher
-    company: Sandia National Laboratories
+    company: "Sandia National Laboratories"
     company_url: ''
-    company_logo: org-snl
+    #company_logo: org-snl
     location: New Mexico
     date_start: '2018-12-01'
     date_end: ''
-    description: Developed robust schemes for relativistic hydrodynamics
+    description: |2-
+        Research:
+        * Robust schemes for relativistic hydrodynamics
+        * IMEX methods for relativistic two-fluid electrodynamics
+
+  - title: Undergraduate Student Researcher
+    company: "Los Alamos National Laboratory"
+    company_url: ''
+    #company_logo: org-lanl
+    location: New Mexico
+    date_start: '2015-04-15'
+    date_end: '2016-08-01'
+    description: |2-
+        Research:
+
+        * Radiation hydrodynamics via ray tracing techniques for meshless hydrodynamics
+        * Pop III Star Formation
+
+  - title: Undergraduate Research Assistant
+    company: "Department of Physics, Brigham Young University"
+    company_url: ''
+    #company_logo: org-byu
+    location: Utah
+    date_start: '2013-12-01'
+    date_end: '2016-04-01'
+    description: |2-
+        Research:
+        * Relativistic magnetohydrodynamics on GPUs
+
+  - title: Undergraduate Project Assistant
+    company: "Department of Mathematics, Brigham Young University"
+    company_url: ''
+    #company_logo: org-byu
+    location: Utah
+    date_start: '2014-02-01'
+    date_end: '2016-04-01'
+    description: |2-
+        Teaching:
+        * Helped write lab manuals on numerical methods
 
 design:
   columns: '2'

@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Forrest Glines # Website name
-baseurl: '' # Website URL
+baseurl: 'https://forrestglines.github.io' 
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
