@@ -1,7 +1,7 @@
 ---
 role: PhD Student in Computational Astrophysics
 avatar_filename: portrait.png
-bio: "Developing performance-portable astrophysics simulations for exascale computers to better understand feedback from active galactic nuclei."
+bio: "Developing performance-portable astrophysics plasma simulations for exascale computers"
 interests: []
 social:
   - icon: envelope
@@ -22,6 +22,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/forrest-glines-97884184
 organizations:
+  - name: T-2, Theoretical Division, Los Alamos National Laboratory
+    url: https://t2.lanl.gov/
   - name: Department of Physics and Astronomy, Michigan State University
     url: https://pa.msu.edu/
   - name: Department of Computational Mathematics, Science  and Engineering, Michigan
@@ -29,9 +31,9 @@ organizations:
     url: https://cmse.msu.edu/
 education:
   courses:
-    - course: PhD Candidate in Astrophysics and Computational Mathematics, Science and Engineering
+    - course: PhD in Astrophysics and Computational Mathematics, Science and Engineering
       institution: Michigan State University
-      year: 2016-present
+      year: 2022
     - course: BSc in Physics and Mathematics with Emphasis in Applied and
         Computational Mathematics
       institution: Brigham Young University
@@ -40,17 +42,23 @@ superuser: true
 highlight_name: false
 title: Forrest Glines
 email: ""
----
-I am a graduate student in Astrophysics and Computational Mathematics, Science
-and Engineering at Michigan State University and a graduate student researcher
-at Sandia National Laboratories.
+---. 
 
-My research covers simulations of galaxy clusters with self-regulating AGN
-feedback, simulations of magnetohydrodynamic turbulence, numerical methods for
-magnetized Newtonian and relativistic plasmas, and performance-portable
-astrophysics codes.
+As of this Fall, I am a new Metropolis Postdoctoral Fellow at Los Alamos
+National Laboratory studying astrophysical plasmas using large scale
+simulations with high performance computing. My research at Los Alamos explores
+the behavior of jets launched from binary black hole mergers embedded within
+accretion disks to determine their observational signatures. These studies are
+enabled by the
+[AthenaPK](https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk)
+exascale-ready magnetohydrodynamics code which I helped develop as a PhD
+student at Michigan State University.
 
-I am looking for post doctoral oppotrunities in astrophysics and computational
-science for 2022. Feel free to contact me via [email](mailto:glinesfo@msu.edu).
+My broader research covers simulations of galaxy clusters with self-regulating
+AGN feedback, simulations of magnetohydrodynamic turbulence, numerical methods
+for magnetized Newtonian and relativistic plasmas, and performance-portable
+    astrophysics codes.
+
+Feel free to contact me for collaboration via [email](mailto:glines@lanl.gov).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Forrest_Glines_CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
