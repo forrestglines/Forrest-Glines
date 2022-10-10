@@ -42,9 +42,8 @@ superuser: true
 highlight_name: false
 title: Forrest Glines
 email: ""
----. 
-
-As of this Fall, I am a new Metropolis Postdoctoral Fellow at Los Alamos
+---
+I am a new Metropolis Postdoctoral Fellow at Los Alamos
 National Laboratory studying astrophysical plasmas using large scale
 simulations with high performance computing. My research at Los Alamos explores
 the behavior of jets launched from binary black hole mergers embedded within
