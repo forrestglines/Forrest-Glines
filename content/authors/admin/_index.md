@@ -1,7 +1,7 @@
 ---
-role: PhD Student in Computational Astrophysics
+role: Metropolis Postdoctoral Fellow in Exascale Computational Astrophysics
 avatar_filename: portrait.png
-bio: "Developing performance-portable astrophysics plasma simulations for exascale computers"
+bio: "Developing exascale-capable performance-portable astrophysics simulations"
 interests: []
 social:
   - icon: envelope
@@ -43,20 +43,19 @@ highlight_name: false
 title: Forrest Glines
 email: ""
 ---
-I am a new Metropolis Postdoctoral Fellow at Los Alamos
-National Laboratory studying astrophysical plasmas using large scale
-simulations with high performance computing. My research at Los Alamos explores
-the behavior of jets launched from binary black hole mergers embedded within
-accretion disks to determine their observational signatures. These studies are
-enabled by the
-[AthenaPK](https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk)
-exascale-ready magnetohydrodynamics code which I helped develop as a PhD
-student at Michigan State University.
+I am a Metropolis Postdoctoral Fellow at Los Alamos National Laboratory
+studying astrophysical plasmas using exascale GPU-based resources. My work at Los
+Alamos is currently focused on developing
+[AthenaPK](https://gitlab.com/theias/hpc/jmstone/athena-parthenon/athenapk), an
+exascale magnetohydrodynamics code, and
+[Parthenon](https://github.com/parthenon-hpc-lab/parthenon), the adaptive mesh
+refinement framework that powers AthenaPK.
+With AthenaPK, I run simulations of astrophysical jets in various scenarios on
+[Frontier](https://www.olcf.ornl.gov/frontier/), the world's first exascale supercomputer.
 
-My broader research covers simulations of galaxy clusters with self-regulating
-AGN feedback, simulations of magnetohydrodynamic turbulence, numerical methods
-for magnetized Newtonian and relativistic plasmas, and performance-portable
-    astrophysics codes.
+My computational intrests focus on  enabling scientific computing on GPUs via
+the development of performance-portable codes: codes that are capable of high
+performance on various GPU and CPU architectures.
 
 Feel free to contact me for collaboration via [email](mailto:glines@lanl.gov).
 

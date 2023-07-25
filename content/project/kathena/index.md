@@ -1,6 +1,6 @@
 ---
 title: K-Athena
-summary: Performance-Portable Uniform Grid Astrophysics Code
+summary: Proof-of-Concept Performance-Portable Uniform Grid Astrophysics Code
 tags:
 - Code Development
 - Performance Portability

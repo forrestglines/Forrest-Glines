@@ -1,5 +1,5 @@
 ---
-title: Decaying Magnetized Turbulence in the Taylor-Green Vortex
+title: Magnetized Turbulence in the Taylor-Green Vortex
 summary: Investigating the development of MHD turblence in the absence of driving forces
 tags:
 - Astrophysics

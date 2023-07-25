@@ -1,6 +1,6 @@
 ---
 title: AthenaPK and Parthenon
-summary: Performance-Portable Astrophysics Simulations with Adaptive Mesh Refinement
+summary: Fully Fledged Performance-Portable Astrophysics Simulations with Adaptive Mesh Refinement
 tags:
 - Code Development
 - Performance Portability
