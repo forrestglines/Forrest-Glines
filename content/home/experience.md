@@ -22,20 +22,34 @@ date_format: 'Jan 2006'
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: PhD Candidate
+  - title: Metropolis Postdoctoral Fellow
+    company: Los Alamos National Laboratory
+    company_url: ''
+    #company_logo: org-msu
+    location: Michigan
+    date_start: '2022-09-12'
+    date_end: ''
+    description: |2-
+        Research:
+        
+        * Exascale Simulations of Galaxy Clusters on Frontier
+        * Support Performance Portable Astrophysics at LANL
+
+
+  - title: PhD Student
     company: Michigan State University
     company_url: ''
     #company_logo: org-msu
     location: Michigan
     date_start: '2016-08-01'
-    date_end: ''
+    date_end: '2022-08-15'
     description: |2-
         Research:
 
         * Active Galactic Nuclei Feedback Models
         * Magnetic Fields in Galaxy Clusters
         * Magnetohydrodynamic Turbulence
-        * Performance Portable Astrophysics Codes
+        * Performance Portable Exascale Astrophysics Codes
 
         Teaching:
 
@@ -48,7 +62,7 @@ experience:
     #company_logo: org-snl
     location: New Mexico
     date_start: '2018-12-01'
-    date_end: ''
+    date_end: '2022-08-15'
     description: |2-
         Research:
         * Robust schemes for relativistic hydrodynamics

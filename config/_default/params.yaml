@@ -23,10 +23,11 @@ twitter: ''
 email: glines@lanl.gov
 #phone: 888 888 88 88
 address:
-  street: 567 Wilson Rd Room 3248
-  city: East Lansing
-  region: MI
-  postcode: '48824'
+  street:  LANL MS-B283
+           P.O. Box 1663
+  city: Los Alamos
+  region: NM
+  postcode: 87545
   country: United States
   country_code: US
 #coordinates:
