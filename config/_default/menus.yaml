@@ -23,6 +23,6 @@ main:
     url: '#contact'
     weight: 60
 
-  - name: CV
-    url: uploads/Forrest_Glines_CV.pdf
+  - name: Resume
+    url: uploads/Forrest_Glines_Resume.pdf
     weight: 70

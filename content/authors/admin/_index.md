@@ -59,4 +59,4 @@ performance on various GPU and CPU architectures.
 
 Feel free to contact me for collaboration via [email](mailto:glines@lanl.gov).
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Forrest_Glines_CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Forrest_Glines_Resume.pdf" "newtab" >}}resume{{< /staticref >}}.
